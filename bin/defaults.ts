@@ -25,7 +25,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://emo.xzy.one',
-  name: 'Xzy Emos',
+  name: 'emos',
   safeDomain: ['emo.xzy.one'],
   hideTitleBar: true,
 };
